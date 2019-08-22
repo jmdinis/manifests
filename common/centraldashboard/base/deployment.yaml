@@ -15,7 +15,7 @@ spec:
         app: centraldashboard
     spec:
       containers:
-      - image: gcr.io/kubeflow-images-public/centraldashboard:v0.5.0
+      - image: 788644545849.dkr.ecr.us-east-2.amazonaws.com/manticore/central-dashboard:latest
         imagePullPolicy: IfNotPresent
         name: centraldashboard
         ports:
